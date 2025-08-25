@@ -1,6 +1,11 @@
 # Mexico Real Estate Market Analysis
 
-![Mexico Housing Analysis](images/screenshot1.png)
+<p float="left">
+  <img src="screenshot1.png" width="30%" />
+  <img src="screenshot2.png" width="30%" />
+  <img src="screenshot3.png" width="30%" />
+</p>
+
 
 ### Introduction
 This project analyzes the housing market in Mexico using real estate data. The goal is to explore whether home prices are influenced more by property size or location. The analysis includes data cleaning, feature extraction, and visualization techniques such as histograms, boxplots, scatter plots, and correlation analysis. Insights are drawn for regional differences, with a special focus on the southern states.
