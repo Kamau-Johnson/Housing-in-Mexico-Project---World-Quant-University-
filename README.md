@@ -1,16 +1,14 @@
-# Mexico Real Estate Market Analysis
+# Buenos Aires Real Estate Market Analysis
 
 <p float="left">
-  <img src="screenshot1.png" width="30%" />
-  <img src="screenshot2.png" width="30%" />
-  <img src="screenshot3.png" width="30%" />
+  <img src="Housing in Buenos Aires.png" width="30%" />
 </p>
 
 
 ### Introduction
-This project analyzes the housing market in Mexico using real estate data. The goal is to explore whether home prices are influenced more by property size or location. The analysis includes data cleaning, feature extraction, and visualization techniques such as histograms, boxplots, scatter plots, and correlation analysis. Insights are drawn for regional differences, with a special focus on the southern states.
+This project analyzes the housing market in Buenos Aires using real estate data. The goal is to explore whether home prices are influenced more by property size or location. The analysis includes data cleaning, feature extraction, and visualization techniques such as histograms, boxplots, scatter plots, and correlation analysis. Insights are drawn for neighborhood differences, with a special focus on high-listing neighborhoods.
 
-And this is what I did: cleaned the data, created new features for latitude, longitude, and state, transformed prices to numeric values, explored the data through summary statistics and visualizations, and calculated correlations to understand the relationship between property size and price across different regions :
+And this is what I did: cleaned the data, created new features for latitude, longitude, and neighborhood, transformed prices to numeric values, explored the data through summary statistics and visualizations, and calculated correlations to understand the relationship between property size and price across different areas :
 
 *Import libraries*
 
@@ -22,7 +20,7 @@ import plotly.express as px
 *Import the CSV file*
 
 ```python
-df = pd.read_csv("data/mexico-real-estate.csv")
+df = pd.read_csv("data/buenos-aires-real-estate.csv")
 ```
 *Inspect the DataFrame*
 
