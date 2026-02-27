@@ -126,3 +126,6 @@ south_states_corr = {state: df_south[df_south['state']==state]['area_m2'].corr(
     df_south[df_south['state']==state]['price_usd']) for state in df_south['state'].unique()}
 south_states_corr
 ```
+
+## Conclusion
+The analysis shows that home prices in Mexico are influenced by both property size and regional location. While larger homes tend to have higher prices, regional differences play a significant role in determining market value, especially across southern states. Through data cleaning, visualization, and correlation analysis, clear patterns emerged showing how price and size relationships vary by region. Overall, the project demonstrates how data analysis can uncover meaningful real estate trends and support evidence-based insights into housing markets.
